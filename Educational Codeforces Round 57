@@ -1,0 +1,22 @@
+
+
+//1096A - Find Divisible
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numbreoftest,low ,high;
+    cin>>numbreoftest;
+    
+    for(int i=0;i<numbreoftest;i++){
+        cin>>low>>high;
+     
+        cout<<low<<" "<<low*2<<endl;
+        
+    }
+    return 0;
+}
